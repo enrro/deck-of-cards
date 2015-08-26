@@ -20,11 +20,13 @@ public class DeckOfCards implements DeckOfCardsInterface {
 		int rnd;
 		Card temp;
 		for(int i=0;i<52;i++){
-			rnd= (int)(Math.random()*52);		//Genera número random entre 0 y 51
+			rnd= (int)(Math.random()*52);		//Genera nÃºmero random entre 0 y 51
 			temp= this.deck[i];				//Guarda el valor actual del naipe en un temporal
 			this.deck[i]=this.deck[rnd];	//Guarda el valor de un lugar random de naipe en el lugar actual
 			this.deck[rnd]=temp;				//Guarda el temporal en el lugar random
-					
+			
+				
+			
 		}
 	}
 
@@ -46,7 +48,7 @@ public class DeckOfCards implements DeckOfCardsInterface {
 		}
 		return null;
 	}
-
+/*
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		DeckOfCards dc = new DeckOfCards();
@@ -64,5 +66,5 @@ public class DeckOfCards implements DeckOfCardsInterface {
 			System.out.println(tmp);
 		}
 	}
-
+*/
 }
