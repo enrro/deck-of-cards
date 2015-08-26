@@ -53,7 +53,7 @@ public class DeckOfCards implements DeckOfCardsInterface {
 		// TODO Auto-generated method stub
 		DeckOfCards dc = new DeckOfCards();
 
-		for (int count = 0 ; count < 1 ; count ++){
+		for (int count = 0 ; count < 52 ; count ++){
 			
 			String tmp = dc.deck[count].toString();
 			System.out.println(tmp);
