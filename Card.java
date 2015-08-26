@@ -2,6 +2,11 @@ public class Card {
 	private int rank;
 	private int suit;
 	
+	public Card(){
+		this.rank = 1;
+		this.suit = 1;
+	}
+	
 	public Card(short rank, short suit){
 		this.rank = rank;
 		this.suit = suit;
