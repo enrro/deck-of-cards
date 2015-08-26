@@ -59,6 +59,15 @@ public class Card {
 				string_rank = "cosa";
 		}
 		switch(this.suit){
+<<<<<<< HEAD
+			case 1: suit= "Clubs";
+			case 2: suit= "Diamonds";
+			case 3: suit= "Hearts";
+			case 4: suit= "Spades";
+			case 5: suit= "rofl";
+			case 6: suit= "stack";
+			case 7: suit= "adt";
+=======
 			case 1: 
 				string_suit= "Clubs";
 				break;
@@ -74,6 +83,7 @@ public class Card {
 			default:
 				string_suit = "cosa";
 				break;
+>>>>>>> origin/master
 		}
 		return string_rank+" of "+ string_suit;
 	}
