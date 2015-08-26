@@ -36,6 +36,7 @@ public class Card {
 			case 2: suit= "Diamonds";
 			case 3: suit= "Hearts";
 			case 4: suit= "Spades";
+			case 5: suit= "rofl";
 		}
 		return rank+" of "+suit;
 	}
