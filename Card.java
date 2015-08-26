@@ -1,12 +1,6 @@
-//COMENTARIO LEL
 public class Card {
-	private short rank,
-				  suit;
-	
-	public Card(){
-		this.rank = 1;
-		this.suit = 1;
-	}
+	private int rank;
+	private int suit;
 	
 	public Card(short rank, short suit){
 		this.rank = rank;
@@ -14,46 +8,68 @@ public class Card {
 	}
 	
 	public String toString(){
-		String rank = "";
-		String suit = "";
+		String string_rank = "";
+		String string_suit = "";
 		switch(this.rank){
-			case 1: rank= "Ace";
-			break;
-			case 2: rank= "Two";
-			break;
-			case 3: rank= "Three";
-			break;
-			case 4: rank="Four";
-			break;
-			case 5: rank= "Five";
-			break;
-			case 6: rank= "Six";
-			break;
-			case 7: rank= "Seven";
-			break;
-			case 8: rank= "Eight";
-			break;
-			case 9: rank= "Nine";
-			break;
-			case 10: rank= "Ten";
-			break;
-			case 11: rank= "Jack";
-			break;
-			case 12: rank= "Queen";
-			break;
-			case 13: rank= "King";
-			break;
+			case 1: 
+				string_rank= "Ace";
+				break;
+			case 2: 
+				string_rank= "Two";
+				break;
+			case 3: 
+				string_rank= "Three";
+				break;
+			case 4: 
+				string_rank="Four";
+				break;
+			case 5: 
+				string_rank= "Five";
+				break;
+			case 6: 
+				string_rank= "Six";
+				break;
+			case 7: 
+				string_rank= "Seven";
+				break;
+			case 8: 
+				string_rank= "Eight";
+				break;
+			case 9: 
+				string_rank= "Nine";
+				break;
+			case 10: 
+				string_rank= "Ten";
+				break;
+			case 11: 
+				string_rank= "Jack";
+				break;
+			case 12: 
+				string_rank= "Queen";
+				break;
+			case 13: 
+				string_rank= "King";
+				break;
+			default:
+				string_rank = "cosa";
 		}
 		switch(this.suit){
-			case 1: suit= "Clubs";
-			break;
-			case 2: suit= "Diamonds";
-			break;
-			case 3: suit= "Hearts";
-			break;
-			case 4: suit= "Spades";
-			break;
+			case 1: 
+				string_suit= "Clubs";
+				break;
+			case 2: 
+				string_suit= "Diamonds";
+				break;
+			case 3: 
+				string_suit= "Hearts";
+				break;
+			case 4: 
+				string_suit= "Spades";
+				break;
+			default:
+				string_suit = "cosa";
+				break;
 		}
-		return rank+" of "+suit;
+		return string_rank+" of "+ string_suit;
 	}
 }
