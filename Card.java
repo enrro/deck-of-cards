@@ -1,4 +1,4 @@
-
+//COMENTARIO LEL
 public class Card {
 	private short rank,
 				  suit;
